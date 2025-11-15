@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TravelBloom - Explore The World</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">🌍 TravelBloom</div>
+    <ul>
+      <li><a href="travel_recommendation.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="search-area">
+      <input type="text" id="searchInput" placeholder="Search destinations..." />
+      <button onclick="searchRecommendations()">Search</button>
+      <button onclick="clearResults()">Reset</button>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Welcome to TravelBloom</h1>
+      <p>Discover the most breathtaking destinations across the globe. Whether you seek beaches, temples, or countries — we’ve got you covered.</p>
+    </div>
+  </header>
+
+  <!-- Results Section -->
+  <section id="results" class="results-section"></section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Connect with us:</p>
+    <div class="social-icons">
+      <a href="#">🌐</a>
+      <a href="#">📘</a>
+      <a href="#">🐦</a>
+      <a href="#">📸</a>
+    </div>
+    <p>&copy; 2025 TravelBloom. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
